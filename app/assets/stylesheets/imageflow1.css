@@ -1,0 +1,17 @@
+#xStep {
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% top;
+}
+
+#xStep {
+	height: 670px !important;
+}
+
+#xStep_images {
+	height: 585px !important;
+	top: 96px;
+	position: relative;
+}
+
+#xStep_navigation {}

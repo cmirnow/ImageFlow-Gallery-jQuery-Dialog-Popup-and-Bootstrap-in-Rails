@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div id="dialog-modal" style="display: none"></div>
+      <div id="xStep" class="imageflow">
+      <% @result.each_with_index do |slide, index| %>
+        <img alt="<%= File.basename(slide, '.jpg') %>" src="/images/slides/<%= slide %>" 
+        longdesc="#<%= index %>" width="300" height="200">
+      <% end %>
+      </div>
+      <% @result.each_with_index do |slide, index| %>
+        <div id="<%= index %>" style="display: none"><img src="/images/slides/<%= slide %>" 
+          width="500" height="333" />
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<script src="/js/imageflow.js"></script>
+<script src="/js/imageflow1.js"></script>
+<script src="/js/jQuery_modal.js"></script>
