@@ -1,24 +1,3 @@
-# README
+# ImageFlow Gallery, jQuery Dialog Popup and Bootstrap 5 in Ruby on Rails 7
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Demo and description](https://masterpro.ws/imageflow-gallery-jquery-dialog-popup-and-bootstrap-5-in-ruby-on-rails-7) (in Russian).
